@@ -1,0 +1,35 @@
+{
+    "id": "https://github.com/EdinburghCityScope/dwp-pension-credits",
+    "title": "Pension Credits claimants in Edinburgh",
+    "description": "Number of Pension Credit claimants in Edinburgh by age and gender.",
+    "landingPage": "https://github.com/EdinburghCityScope/dwp-pension-credits",
+    "issued": "2016-10-21",
+    "modified": "2016-11-22",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "Scottish Government",
+        "mbox": "statistics.enquiries@gov.scot"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "community", "benefits"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh Data Zones 2001",
+            "description": "Data Zones 2001 boundaries in GeoJSON.",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/dwp-pension-credits/master/data/data-zones-2001.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Pension Credit data",
+            "description": "Pension Credit claimants by Edinburgh Data Zones 2001 as created by Department for Work and Pensions. Data taken from http://statistics.gov.scot/data/pension-credits",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/dwp-pension-credits/master/data/pension-credits.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}
